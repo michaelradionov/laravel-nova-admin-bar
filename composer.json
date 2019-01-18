@@ -1,17 +1,17 @@
 {
-    "name": "spatie/nova-admin-bar",
+    "name": "michaelradionov/nova-admin-bar",
     "description": "This package add WordPress-like admin bar to your Laravel+Nova website.",
     "keywords": [
-        "spatie",
+        "michaelradionov",
         "nova-admin-bar"
     ],
-    "homepage": "https://github.com/spatie/nova-admin-bar",
+    "homepage": "https://github.com/michaelradionov/nova-admin-bar",
     "license": "MIT",
     "authors": [
         {
             "name": "Michael Radionov",
             "email": "misha.radionov@gmail.com",
-            "homepage": "https://spatie.be",
+            "homepage": "https://radionov.me",
             "role": "Developer"
         }
     ],
@@ -24,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src"
+            "michaelradionov\\Skeleton\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "michaelradionov\\Skeleton\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -43,10 +43,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Skeleton\\SkeletonServiceProvider"
+                "michaelradionov\\Skeleton\\SkeletonServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "Spatie\\Skeleton\\SkeletonFacade"
+                "Skeleton": "michaelradionov\\Skeleton\\SkeletonFacade"
             }
         }
     }
